@@ -7,7 +7,7 @@
     "remote": "blobs",
     "repository": "vendor_samsung_beyond0lte",
     "target_path": "vendor/samsung/beyond0lte",
-    "branch": "eleven"
+    "branch": "twelve"
   },
   {
     "remote": "github",
