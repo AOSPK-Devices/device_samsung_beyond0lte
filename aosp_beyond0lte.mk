@@ -25,8 +25,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/samsung/beyond0lte/device.mk)
 
 ## Boot Animation
-TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_BOOT_ANIMATION_RES := 1080
+
+## Kraken Stuffs
+KRAKEN_BUILD_TYPE := OFFICIAL
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.kraken.maintainer=ECr34T1v3
 
 ## Inherit some common AOSPK stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
